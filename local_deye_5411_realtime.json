@@ -1,0 +1,1718 @@
+[
+  {
+    "catalogTitle_zh": "solar",
+    "catalogTitle_en": "solar",
+    "commandGroups": [
+      {
+        "startAddress": "0002",
+        "endAddress": "0002"
+      },
+      {
+        "startAddress": "0085",
+        "endAddress": "0085"
+      },
+      {
+        "startAddress": "029B",
+        "endAddress": "029B"
+      },
+      {
+        "startAddress": "02A0",
+        "endAddress": "02AB"
+      },
+      {
+        "startAddress": "0211",
+        "endAddress": "0217"
+      }
+    ],
+    "items": [
+      {
+        "itemTitle_zh": "PV1功率",
+        "itemTitle_en": "PV1 Power",
+        "registers": [
+          {
+            "address": "02A0",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "PV2功率",
+        "itemTitle_en": "PV2 Power",
+        "registers": [
+          {
+            "address": "02A1",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "PV3 功率",
+        "itemTitle_en": "PV3 Power",
+        "registers": [
+          {
+            "address": "02A2",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "PV4 功率",
+        "itemTitle_en": "PV4 Power",
+        "registers": [
+          {
+            "address": "02A3",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "PV1电压",
+        "itemTitle_en": "PV1 Voltage",
+        "registers": [
+          {
+            "address": "02A4",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "PV2电压",
+        "itemTitle_en": "PV2 Voltage",
+        "registers": [
+          {
+            "address": "02A6",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "PV3电压",
+        "itemTitle_en": "PV3 Voltage",
+        "registers": [
+          {
+            "address": "02A8",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "PV4电压",
+        "itemTitle_en": "PV4 Voltage",
+        "registers": [
+          {
+            "address": "02AA",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "PV1电流",
+        "itemTitle_en": "PV1 Current",
+        "registers": [
+          {
+            "address": "02A5",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "PV2电流",
+        "itemTitle_en": "PV2 Current",
+        "registers": [
+          {
+            "address": "02A7",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "PV3电流",
+        "itemTitle_en": "PV3 Current",
+        "registers": [
+          {
+            "address": "02A9",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "PV4电流",
+        "itemTitle_en": "PV4 Current",
+        "registers": [
+          {
+            "address": "02AB",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "日发电量",
+        "itemTitle_en": "Daily Production",
+        "registers": [
+          {
+            "address": "0211",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "总发电量",
+        "itemTitle_en": "Total Production",
+        "registers": [
+          {
+            "address": "0217",
+            "value": ""
+          },
+          {
+            "address": "0216",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 32,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "微逆功率",
+        "itemTitle_en": "Micro-inverter Power",
+        "registers": [
+          {
+            "address": "0085",
+            "value": ""
+          },
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "029B",
+            "value": ""
+          },
+          {
+            "address": "029F",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      }
+    ]
+  },
+  {
+    "catalogTitle_zh": "battery",
+    "catalogTitle_en": "battery",
+    "commandGroups": [
+      {
+        "startAddress": "006F",
+        "endAddress": "006F"
+      },
+      {
+        "startAddress": "024A",
+        "endAddress": "024F"
+      },
+      {
+        "startAddress": "0202",
+        "endAddress": "0207"
+      }
+    ],
+    "items": [
+      {
+        "itemTitle_zh": "状态",
+        "itemTitle_en": "Battery Status",
+        "registers": [
+          {
+            "address": "024E",
+            "value": ""
+          }
+        ],
+        "interaction": 5,
+        "parserRule": -16,
+        "optionRanges": [
+          {
+            "key": 0,
+            "value_zh": "充电",
+            "value_en": "Charge"
+          },
+          {
+            "key": 1,
+            "value_zh": "等待",
+            "value_en": "Stand-by"
+          },
+          {
+            "key": 2,
+            "value_zh": "放电",
+            "value_en": "Discharge"
+          }
+        ],
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "功率",
+        "itemTitle_en": "Battery Power",
+        "registers": [
+          {
+            "address": "024E",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电压",
+        "itemTitle_en": "Battery Voltage",
+        "registers": [
+          {
+            "address": "024B",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.01,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "SOC",
+        "itemTitle_en": "Battery SOC",
+        "registers": [
+          {
+            "address": "006F",
+            "value": ""
+          },
+          {
+            "address": "024C",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "%"
+      },
+      {
+        "itemTitle_zh": "电流",
+        "itemTitle_en": "Battery Current",
+        "registers": [
+          {
+            "address": "024F",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "电池温度",
+        "itemTitle_en": "Battery Temperature",
+        "registers": [
+          {
+            "address": "024A",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "℃"
+      },
+      {
+        "itemTitle_zh": "电池当日充电量",
+        "itemTitle_en": "Daily charge energy",
+        "registers": [
+          {
+            "address": "0202",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "电池当日放电量",
+        "itemTitle_en": "Daily discharge energy",
+        "registers": [
+          {
+            "address": "0203",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "电池累计充电量",
+        "itemTitle_en": "Total charge energy",
+        "registers": [
+          {
+            "address": "0205",
+            "value": ""
+          },
+          {
+            "address": "0204",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 32,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "电池累计放电量",
+        "itemTitle_en": "Total discharge energy",
+        "registers": [
+          {
+            "address": "0207",
+            "value": ""
+          },
+          {
+            "address": "0206",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 32,
+        "ratio": 0.1,
+        "unit": "kWh"
+      }
+    ]
+  },
+  {
+    "catalogTitle_zh": "grid",
+    "catalogTitle_en": "grid",
+    "commandGroups": [
+      {
+        "startAddress": "0002",
+        "endAddress": "0002"
+      },
+      {
+        "startAddress": "0256",
+        "endAddress": "0264"
+      },
+      {
+        "startAddress": "0268",
+        "endAddress": "0271"
+      },
+      {
+        "startAddress": "0208",
+        "endAddress": "020D"
+      },
+      {
+        "startAddress": "02BC",
+        "endAddress": "02C4"
+      },
+      {
+        "startAddress": "02AF",
+        "endAddress": "02B2"
+      }
+    ],
+    "items": [
+      {
+        "itemTitle_zh": "状态",
+        "itemTitle_en": "Grid Status",
+        "registers": [
+          {
+            "address": "0271",
+            "value": ""
+          }
+        ],
+        "interaction": 5,
+        "parserRule": -16,
+        "optionRanges": [
+          {
+            "key": 0,
+            "value_zh": "卖电",
+            "value_en": "SELL"
+          },
+          {
+            "key": 1,
+            "value_zh": "买电",
+            "value_en": "BUY"
+          },
+          {
+            "key": 2,
+            "value_zh": "等待",
+            "value_en": "Stand-by"
+          }
+        ],
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "电网总功率",
+        "itemTitle_en": "Total Internal Grid Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "025F",
+            "value": ""
+          },
+          {
+            "address": "02BF",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧内侧A相功率",
+        "itemTitle_en": "Internal L1 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "025C",
+            "value": ""
+          },
+          {
+            "address": "02BC",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧内侧B相功率",
+        "itemTitle_en": "Internal L2 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "025D",
+            "value": ""
+          },
+          {
+            "address": "02BD",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧内侧C相功率",
+        "itemTitle_en": "Internal L3 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "025E",
+            "value": ""
+          },
+          {
+            "address": "002BE",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网外置-功率A",
+        "itemTitle_en": "External CT L1 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0268",
+            "value": ""
+          },
+          {
+            "address": "02C1",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网外置-功率B",
+        "itemTitle_en": "External CT L2 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0269",
+            "value": ""
+          },
+          {
+            "address": "02C2",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网外置-功率C",
+        "itemTitle_en": "External CT L3 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "026A",
+            "value": ""
+          },
+          {
+            "address": "02C3",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网外置-总有功功率",
+        "itemTitle_en": "Total External CT Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "026B",
+            "value": ""
+          },
+          {
+            "address": "02C4",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧相电压A",
+        "itemTitle_en": "Grid Voltage L1",
+        "registers": [
+          {
+            "address": "0256",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "电网侧相电压B",
+        "itemTitle_en": "Grid Voltage L2",
+        "registers": [
+          {
+            "address": "0257",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "电网侧相电压C",
+        "itemTitle_en": "Grid Voltage L3",
+        "registers": [
+          {
+            "address": "0258",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "电网侧内侧电流A",
+        "itemTitle_en": "Grid Current L1",
+        "registers": [
+          {
+            "address": "0262",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "电网侧内侧电流B",
+        "itemTitle_en": "Grid  Current L2",
+        "registers": [
+          {
+            "address": "0263",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "电网侧内侧电流C",
+        "itemTitle_en": "Grid  Current L3",
+        "registers": [
+          {
+            "address": "0264",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "电网频率",
+        "itemTitle_en": "Grid Frequency",
+        "registers": [
+          {
+            "address": "0261",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.01,
+        "unit": "Hz"
+      },
+      {
+        "itemTitle_zh": "电网侧A相功率",
+        "itemTitle_en": "Grid Power L1",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "026E",
+            "value": ""
+          },
+          {
+            "address": "02AF",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧B相功率",
+        "itemTitle_en": "Grid Power L2",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "026F",
+            "value": ""
+          },
+          {
+            "address": "02B0",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧C相功率",
+        "itemTitle_en": "Grid Power L3",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0270",
+            "value": ""
+          },
+          {
+            "address": "02B1",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网侧-总有功功率",
+        "itemTitle_en": "Total Grid Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0271",
+            "value": ""
+          },
+          {
+            "address": "02B2",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "电网当日购电量",
+        "itemTitle_en": "Daily Energy Bought",
+        "registers": [
+          {
+            "address": "0208",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "电网当日卖电量",
+        "itemTitle_en": "Daily Energy Sold",
+        "registers": [
+          {
+            "address": "0209",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "电网累计购电量",
+        "itemTitle_en": "Total  Energy Bought",
+        "registers": [
+          {
+            "address": "020B",
+            "value": ""
+          },
+          {
+            "address": "020A",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 32,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "电网累计卖电量",
+        "itemTitle_en": "Total  Energy Sold",
+        "registers": [
+          {
+            "address": "020D",
+            "value": ""
+          },
+          {
+            "address": "020C",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 32,
+        "ratio": 0.1,
+        "unit": "kWh"
+      }
+    ]
+  },
+  {
+    "catalogTitle_zh": "UPSload",
+    "catalogTitle_en": "UPSload",
+    "commandGroups": [
+      {
+        "startAddress": "0002",
+        "endAddress": "0002"
+      },
+      {
+        "startAddress": "0280",
+        "endAddress": "0286"
+      },
+      {
+        "startAddress": "028A",
+        "endAddress": "028D"
+      },
+      {
+        "startAddress": "020E",
+        "endAddress": "0210"
+      },
+      {
+        "startAddress": "02B8",
+        "endAddress": "02BB"
+      }
+    ],
+    "items": [
+      {
+        "itemTitle_zh": "UPS负载侧总功率",
+        "itemTitle_en": "Total UPSLoad Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0283",
+            "value": ""
+          },
+          {
+            "address": "02BB",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "UPS负载侧相功率A",
+        "itemTitle_en": "UPSLoad L1 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0280",
+            "value": ""
+          },
+          {
+            "address": "02B8",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "UPS负载侧相功率B",
+        "itemTitle_en": "UPSLoad L2 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0281",
+            "value": ""
+          },
+          {
+            "address": "02B9",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "UPS负载侧相功率C",
+        "itemTitle_en": "UPSLoad L3 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0282",
+            "value": ""
+          },
+          {
+            "address": "02BA",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "负载测相电压A",
+        "itemTitle_en": "Load L1 Voltage",
+        "registers": [
+          {
+            "address": "0284",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "负载测相电压B",
+        "itemTitle_en": "Load L2 Voltage",
+        "registers": [
+          {
+            "address": "0285",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "负载测相电压C",
+        "itemTitle_en": "Load L3 Voltage",
+        "registers": [
+          {
+            "address": "0286",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "负载侧相功率A",
+        "itemTitle_en": "Load L1 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "028A",
+            "value": ""
+          },
+          {
+            "address": "0290",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "负载侧相功率B",
+        "itemTitle_en": "Load L2 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "028B",
+            "value": ""
+          },
+          {
+            "address": "0291",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "负载侧相功率C",
+        "itemTitle_en": "Load L3 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "028C",
+            "value": ""
+          },
+          {
+            "address": "0292",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "负载侧总有功功率",
+        "itemTitle_en": "Total Load Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "028D",
+            "value": ""
+          },
+          {
+            "address": "0293",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "当日用电量",
+        "itemTitle_en": "Today Consumption",
+        "registers": [
+          {
+            "address": "020E",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "kWh"
+      },
+      {
+        "itemTitle_zh": "累计用电量",
+        "itemTitle_en": "Total Consumption",
+        "registers": [
+          {
+            "address": "0210",
+            "value": ""
+          },
+          {
+            "address": "020F",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 32,
+        "ratio": 0.1,
+        "unit": "kWh"
+      }
+    ]
+  },
+  {
+    "catalogTitle_zh": "inverter",
+    "catalogTitle_en": "inverter",
+    "commandGroups": [
+      {
+        "startAddress": "0002",
+        "endAddress": "0002"
+      },
+      {
+        "startAddress": "0003",
+        "endAddress": "0012"
+      },
+      {
+        "startAddress": "0273",
+        "endAddress": "027C"
+      },
+      {
+        "startAddress": "008E",
+        "endAddress": "0092"
+      },
+      {
+        "startAddress": "01F4",
+        "endAddress": "01F4"
+      },
+      {
+        "startAddress": "021D",
+        "endAddress": "0228"
+      },
+      {
+        "startAddress": "02B3",
+        "endAddress": "02B6"
+      }
+    ],
+    "items": [
+      {
+        "itemTitle_zh": "运行状态",
+        "itemTitle_en": "Running Status",
+        "registers": [
+          {
+            "address": "01F4",
+            "value": ""
+          }
+        ],
+        "interaction": 5,
+        "parserRule": 16,
+        "optionRanges": [
+          {
+            "key": 0,
+            "value_zh": "等待",
+            "value_en": "Stand-by"
+          },
+          {
+            "key": 1,
+            "value_zh": "自检",
+            "value_en": "Selfcheck"
+          },
+          {
+            "key": 2,
+            "value_zh": "正常运行",
+            "value_en": "Normal"
+          },
+          {
+            "key": 3,
+            "value_zh": "告警",
+            "value_en": "alarm"
+          },
+          {
+            "key": 4,
+            "value_zh": "故障",
+            "value_en": "fault"
+          }
+        ],
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "逆变器输出总有功功率",
+        "itemTitle_en": "Total Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "027C",
+            "value": ""
+          },
+          {
+            "address": "02B6",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相功率A",
+        "itemTitle_en": "L1 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "0279",
+            "value": ""
+          },
+          {
+            "address": "02B3",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相功率B",
+        "itemTitle_en": "L2 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "027A",
+            "value": ""
+          },
+          {
+            "address": "02B4",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相功率C",
+        "itemTitle_en": "L3 Power",
+        "registers": [
+          {
+            "address": "0002",
+            "value": ""
+          },
+          {
+            "address": "027B",
+            "value": ""
+          },
+          {
+            "address": "02B5",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 1,
+        "unit": "W"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相电流A",
+        "itemTitle_en": "L1 Current",
+        "registers": [
+          {
+            "address": "0276",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相电流B",
+        "itemTitle_en": "L2 Current",
+        "registers": [
+          {
+            "address": "0277",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相电流C",
+        "itemTitle_en": "L3 Current",
+        "registers": [
+          {
+            "address": "0278",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": -16,
+        "ratio": 0.01,
+        "unit": "A"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相电压A",
+        "itemTitle_en": "L1 Voltage",
+        "registers": [
+          {
+            "address": "0273",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相电压B",
+        "itemTitle_en": "L2 Voltage",
+        "registers": [
+          {
+            "address": "0274",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "逆变器输出相电压C",
+        "itemTitle_en": "L3 Voltage",
+        "registers": [
+          {
+            "address": "0275",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "V"
+      },
+      {
+        "itemTitle_zh": "AC温度",
+        "itemTitle_en": "AC Temperature",
+        "registers": [
+          {
+            "address": "021D",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 0.1,
+        "unit": "℃"
+      },
+      {
+        "itemTitle_zh": "逆变器ID",
+        "itemTitle_en": "Inverter ID",
+        "registers": [
+          {
+            "address": "0003",
+            "value": ""
+          },
+          {
+            "address": "0004",
+            "value": ""
+          },
+          {
+            "address": "0005",
+            "value": ""
+          },
+          {
+            "address": "0006",
+            "value": ""
+          },
+          {
+            "address": "0007",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 3,
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "控制板启动程序",
+        "itemTitle_en": "Bootloader Software Version",
+        "registers": [
+          {
+            "address": "000B",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "控制板辅助程序",
+        "itemTitle_en": "Assistant Program Version",
+        "registers": [
+          {
+            "address": "000B",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "通讯板版本号",
+        "itemTitle_en": "Communication version",
+        "registers": [
+          {
+            "address": "0011",
+            "value": ""
+          },
+          {
+            "address": "0012",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 3,
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "控制板版本号",
+        "itemTitle_en": "CPU Control Version",
+        "registers": [
+          {
+            "address": "000E",
+            "value": ""
+          },
+          {
+            "address": "000F",
+            "value": ""
+          }
+        ],
+        "interaction": 2,
+        "parserRule": 3,
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "并网状态",
+        "itemTitle_en": "Grid-connected Status",
+        "registers": [
+          {
+            "address": "0228",
+            "value": ""
+          }
+        ],
+        "interaction": 5,
+        "parserRule": 2,
+        "optionRanges": [
+          {
+            "key": 0,
+            "value_zh": "Off-Grid",
+            "value_en": "Off-Grid"
+          },
+          {
+            "key": 1,
+            "value_zh": "On-Grid",
+            "value_en": "On-Grid"
+          }
+        ],
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "Time of use",
+        "itemTitle_en": "Time of Use",
+        "registers": [
+          {
+            "address": "0092",
+            "value": ""
+          }
+        ],
+        "interaction": 5,
+        "parserRule": 16,
+        "optionRanges": [
+          {
+            "key": 0,
+            "value_zh": "失能",
+            "value_en": "Disable"
+          },
+          {
+            "key": 1,
+            "value_zh": "使能",
+            "value_en": "Enable"
+          }
+        ],
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "模式",
+        "itemTitle_en": "Work Mode",
+        "registers": [
+          {
+            "address": "008E",
+            "value": ""
+          },
+          {
+            "address": "0091",
+            "value": ""
+          }
+        ],
+        "interaction": 5,
+        "parserRule": 16,
+        "optionRanges": [
+          {
+            "key": 0,
+            "value_zh": "Grid Sell",
+            "value_en": "Grid Sell"
+          },
+          {
+            "key": 1,
+            "value_zh": "Zero-Export to Load&Solar Sell",
+            "value_en": "Zero-Export to Load&Solar Sell"
+          },
+          {
+            "key": 2,
+            "value_zh": "Zero-Export to Home&Solar Sell",
+            "value_en": "Zero-Export to Home&Solar Sell"
+          },
+          {
+            "key": 3,
+            "value_zh": "Zero-Export to Load",
+            "value_en": "Zero-Export to Load"
+          },
+          {
+            "key": 4,
+            "value_zh": "Zero-Export to Home",
+            "value_en": "Zero-Export to Home"
+          }
+        ],
+        "ratio": 1,
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "catalogTitle_zh": "告警信息",
+    "catalogTitle_en": "Alert Info",
+    "commandGroups": [
+      {
+        "startAddress": "0229",
+        "endAddress": "022E"
+      }
+    ],
+    "items": [
+      {
+        "itemTitle_zh": "告警代码",
+        "itemTitle_en": "Warn",
+        "registers": [
+          {
+            "address": "0229",
+            "value": ""
+          }
+        ],
+        "interaction": 8,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": ""
+      },
+      {
+        "itemTitle_zh": "故障代码",
+        "itemTitle_en": "Fault",
+        "registers": [
+          {
+            "address": "022B",
+            "value": ""
+          },
+          {
+            "address": "022C",
+            "value": ""
+          },
+          {
+            "address": "022D",
+            "value": ""
+          },
+          {
+            "address": "022E",
+            "value": ""
+          }
+        ],
+        "interaction": 8,
+        "parserRule": 16,
+        "ratio": 1,
+        "unit": ""
+      }
+    ]
+  }
+]
